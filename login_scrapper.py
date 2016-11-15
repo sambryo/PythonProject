@@ -7,8 +7,8 @@ go("https://piazza.com")
 b = get_browser()
 b.showforms()
 
-USERNAME = "nehe8v10"
-PASSWORD = "test123"
+USERNAME = "**********"
+PASSWORD = "**********"
 
 LOGIN_URL = "https://piazza.com/"
 load_cookies("./cookie.jar")
