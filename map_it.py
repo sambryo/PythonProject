@@ -7,3 +7,7 @@ if len(sys.argv) > 1:
     #Get address from a command line.
     address = ' '.join(sys.argv[1:])
     webbrowser.open(address)
+
+
+
+
