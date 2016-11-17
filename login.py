@@ -1,12 +1,15 @@
 import requests
+from twill.commands import *
 with requests.Session() as c:
         url = "https://piazza.com"
-        USERNAME = "nehe8v10"
-        PASSWORD = "valid password"
+        USERNAME = "******"
+        PASSWORD = "******"
         c.get(url)
         login_data = dict(username=USERNAME,
         password=PASSWORD, next='/')
         c.post(url, data=login_data, headers={"Referer":"HOMEPAGE"})
-        page = c.get("PROTECTED LEVEL OF WEBSITE")
-
+        c.get
+        page = c.get("https://piazza.com")
+        go(url);
+        showforms()
         print page.content
